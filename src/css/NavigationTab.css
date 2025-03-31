@@ -1,0 +1,27 @@
+.navigation-row {
+    padding-bottom: 16px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.navigationItemIcon {
+    justify-content: center;
+    vertical-align: middle;
+    padding-top: 6px;
+    padding-bottom: 6px; 
+    padding-right: 22px;
+    padding-left: 6px;
+}
+
+.navigationItemLabel {
+    display: none;
+    vertical-align: middle;
+    color: #8F8F8F;
+    size: 15px;
+    font-weight: bold;
+    transition: .15s;
+    text-decoration: none;
+    padding-top: 6px;
+    padding-bottom: 6px; 
+}
+

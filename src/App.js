@@ -7,6 +7,9 @@ import Documents from "./pages/Documents";
 import Bugs from "./pages/Bugs";
 import Epics from "./pages/Epics";
 import Goals from "./pages/Goals";
+import Notifications from "./pages/Notifications";
+import Recents from "./pages/Recents";
+import MyApplications from "./pages/MyApplications";
 import Navigation from "./components/Navigation";
 
 function App() {
@@ -23,6 +26,9 @@ function App() {
               <Route path="/bugs" element={<Bugs />}/>
               <Route path="/epics" element={<Epics />}/>
               <Route path="/goals" element={<Goals />}/>
+              <Route path="/notifications" element={<Notifications />}/>
+              <Route path="/recents" element={<Recents />}/>
+              <Route path="/myapplications" element={<MyApplications />}/>
             </Routes>
           </div>
       </BrowserRouter>

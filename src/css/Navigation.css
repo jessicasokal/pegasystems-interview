@@ -10,8 +10,11 @@
     padding-top: 20px;
 }
 
-.navigationHovering:hover {
-    width: 375px;
+#navigationFixedTabs {
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0px;
+    width: 58px;
 }
 
 .navigationHovering:hover {
@@ -34,6 +37,21 @@
     width: 331px;
 }
 
+.navigationHovering:hover .navigationItemLabel {
+    display: inline-block;
+}
+
+.navigationHovering:hover .navigation-row {
+    width: 331px;
+    transition: .15s;
+}
+
+.navigationHovering:hover #navigationFixedTabs {
+    width: 331px;
+    transition: .15s;
+}
+
+
 #heading {
     margin-left: -4px;
     padding-bottom: 24px;
@@ -43,4 +61,5 @@
 
 .horizontalBreak {
     margin-left: -22px;
+    margin-bottom: 16px;
 }
