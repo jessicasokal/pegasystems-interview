@@ -1,0 +1,6 @@
+.main-content {
+    height: 100%;
+    position: fixed;
+    left: 80px;
+    z-index: -1;
+}
