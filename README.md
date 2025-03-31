@@ -1,5 +1,5 @@
 # Running this app:
-1. Clone this repository to your desktop
+1. Clone this repository to your desktop OR dowload and unzip folder to desktop
 2. Verify you have node and npm installed on your system
     -> open a terminal window
     -> type `node -v` and hit enter -- if node is installed, you will see a node version returned (for example: v21.7.1)
