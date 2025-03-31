@@ -66,3 +66,7 @@
     margin-left: -22px;
     margin-bottom: 16px;
 }
+
+.subNav {
+    transition: .15s;
+}
