@@ -6,6 +6,7 @@ import bugs from '../assets/images/bugs.png';
 import notifications from '../assets/images/notifications.png';
 import recents from '../assets/images/recents.png';
 import applications from '../assets/images/applications.png';
+import plus from '../assets/images/plus.png';
 
 const navigationIcons = {
     "house" : {
@@ -47,6 +48,10 @@ const navigationIcons = {
     "applications" : {
         "iconImage" : applications,
         "iconImageAlt" : "applications icon"
+    },
+    "plus" : {
+        "iconImage" : plus,
+        "iconImageAlt" : "create icon"
     }
 }
 

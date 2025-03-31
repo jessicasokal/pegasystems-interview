@@ -51,6 +51,9 @@
     transition: .15s;
 }
 
+.navigationHovering:hover .subTab {
+    width: 375px;
+}
 
 #heading {
     margin-left: -4px;

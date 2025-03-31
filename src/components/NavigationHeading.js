@@ -2,10 +2,10 @@ import '../css/Navigation.css';
 import NavigationLogo from "./NavigationLogo";
 import NavigationAppName from "./NavigationAppName";
 
-function NavigationHeading({appName}) {
+function NavigationHeading({appName, logo}) {
     return (
             <div id="heading">
-                <NavigationLogo/>
+                <NavigationLogo logo={logo}/>
                 <NavigationAppName appName={appName}/>
             </div>      
     );

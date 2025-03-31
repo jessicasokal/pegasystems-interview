@@ -4,14 +4,14 @@ import SearchBar from "./SearchBar";
 import NavigationTabs from "./NavigationTabs";
 import NavigationFixedTabs from "./NavigationFixedTabs";
 
-function Navigation({appName}) {
+function Navigation({appName, user, tabs, fixedTabs, logo}) {
     return (
         <div id="nav" className="navigation navigationHovering">
-            <NavigationHeading appName={appName}/>
+            <NavigationHeading logo={logo} appName={appName}/>
             <SearchBar/>
             <hr className="horizontalBreak"/>
-            <NavigationTabs/>
-            <NavigationFixedTabs/>
+            <NavigationTabs tabs={tabs}/>
+            <NavigationFixedTabs tabs={fixedTabs} user={user}/>
         </div>
     );
 }
